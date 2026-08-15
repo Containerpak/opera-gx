@@ -1,0 +1,8 @@
+[Desktop Entry]
+Type=Application
+Name=Opera GX
+Comment=Browse the web with gaming-focused controls and integrations.
+Exec=opera-gx %U
+Icon=opera-gx
+Terminal=false
+Categories=Network;WebBrowser;
