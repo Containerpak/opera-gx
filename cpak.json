@@ -5,6 +5,7 @@
   "description": "Browse the web with gaming-focused controls and integrations.",
   "version": "134.0.5954.55",
   "image": "ghcr.io/containerpak/opera-gx:main",
+  "runtime_sources": [{"name": "opera-gx-stable_134.0.5954.55_amd64.deb", "url": "https://get.opera.com/pub/opera_gx/134.0.5954.55/linux/opera-gx-stable_134.0.5954.55_amd64.deb", "sha256": "c999c2768537e2d59cfba717de39fd39623ee46be68c5f447daf469becb3e369", "size": 179735796, "installer": "dpkg"}],
   "binaries": [
     "/usr/bin/opera-gx"
   ],
