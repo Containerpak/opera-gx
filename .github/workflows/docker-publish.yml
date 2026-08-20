@@ -49,8 +49,8 @@ jobs:
           cache-to: type=gha,mode=max
           provenance: mode=max
           sbom: true
-      - name: Verify package
-        run: docker run --rm ghcr.io/containerpak/opera-gx:main sh -c 'test -x /usr/bin/opera-gx && test -f /usr/share/applications/opera-gx.desktop'
+      - name: Verify adapter
+        run: docker run --rm ghcr.io/containerpak/opera-gx:main sh -c 'test ! -e /usr/bin/opera-gx && test -f /usr/share/applications/opera-gx.desktop && test -f /usr/share/icons/hicolor/128x128/apps/opera-gx.png'
       - name: Publish summary
         run: echo "ghcr.io/containerpak/opera-gx@${{ steps.build.outputs.digest }}" >> "$GITHUB_STEP_SUMMARY"
 
