@@ -3,14 +3,14 @@
   "manifest_version": "3.0",
   "name": "Opera GX",
   "description": "Browse the web with gaming-focused controls and integrations.",
-  "version": "135.0.5973.57",
+  "version": "135.0.5973.85",
   "image": "ghcr.io/containerpak/opera-gx@sha256:5682521175b8b590988116f479d7e96d2a6c401ca5e87da59a304dc41d20bcb7",
   "runtime_sources": [
     {
-      "name": "opera-gx-stable_135.0.5973.57_amd64.deb",
-      "url": "https://deb.opera.com/opera-gx-stable/pool/non-free/o/opera-gx-stable/opera-gx-stable_135.0.5973.57_amd64.deb",
-      "sha256": "3966a2238f60101489f7980927c62f324aa922b100871bfea26a2452ec611474",
-      "size": 184126624,
+      "name": "opera-gx-stable_135.0.5973.85_amd64.deb",
+      "url": "https://deb.opera.com/opera-gx-stable/pool/non-free/o/opera-gx-stable/opera-gx-stable_135.0.5973.85_amd64.deb",
+      "sha256": "ab02f603e0e96d959b8d148c9a657a53f51db5b5809e646de398f64d31f994a1",
+      "size": 184266202,
       "installer": "dpkg"
     }
   ],
