@@ -4,7 +4,7 @@
   "name": "Opera GX",
   "description": "Browse the web with gaming-focused controls and integrations.",
   "version": "135.0.5973.135",
-  "image": "ghcr.io/containerpak/opera-gx@sha256:3a1d770cc53158e695f1a6917ca9d1d1a0ba1a82f904eceee81afd38da2ee570",
+  "image": "ghcr.io/containerpak/opera-gx@sha256:d67bc93214ce1f0f9977f8c379bb37351d0c26f00db394144c9cad2a200c80c5",
   "runtime_sources": [
     {
       "name": "opera-gx-stable_135.0.5973.135_amd64.deb",
